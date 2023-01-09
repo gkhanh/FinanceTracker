@@ -16,42 +16,47 @@
 </head>
 <body class="e-bigger">
 <partial name="_Sidebar"/>
-<header>
-    <nav class="navbar navbar-expand-sm navbar-toggleable-sm  mb-3">
-        <div class="container-fluid justify-content-center">
-            <a class="navbar-brand text-white fw-bold" asp-controller="Dashboard" asp-action="Index">Finance Tracking Web</a>
-        </div>
-    </nav>
-</header>
-<div class="mainContent">
-    <div class="container mt-5">
-        <div class="row justify-content-center">
-            <div class="@(ViewData["isDashboard"] == null ? "col-md-10" : "col-md-12")">
-                <main role="main" class="pb-3">
-                    @if (ViewData["isDashboard"] == null)
-                    {
-                        <div class="row">
-                            <div class="col-md-8">
-                                <div class="d-flex flex-column mb-5">
-                                    <div class="d-flex mb-1">
-                                        <div>
-                                            <h3 class="fw-bold">@ViewData["PageTitle"]</h3>
+<div class="dock-target">
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm  mb-3">
+            <div class="container-fluid justify-content-center">
+                <a class="navbar-brand text-white fw-bold" asp-controller="Dashboard" asp-action="Index">Finance Tracking Web</a>
+            </div>
+        </nav>
+    </header>
+    <div class="mainContent">
+        <div class="container mt-5">
+            <div class="row justify-content-center">
+                <div class="@(ViewData["isDashboard"] == null ? "col-md-10" : "col-md-12")">
+                    <main role="main" class="pb-3">
+                        @if (ViewData["isDashboard"] == null)
+                        {
+                            <div class="row">
+                                <div class="col-md-7">
+                                    <div class="d-flex flex-column mb-5">
+                                        <div class="d-flex mb-1">
+                                            <div class="flex-grow-1">
+                                                <h3 class="fw-bold">@ViewData["PageTitle"]</h3>
+                                            </div>
+                                            <div>
+                                                @if (ViewData["PageActionText"] != null)
+                                                {
+                                                    <a class="btn btn-success" href="@ViewData["PageActionUrl"]">
+                                                        @ViewData["PageActionText"]
+                                                    </a>
+                                                }
+                                            </div>
                                         </div>
-                                        <div>
-                                            @if (ViewData["PageActionText"] != null)
-                                            {
-                                                <a class="bn632-hover bn18" href="@ViewData["PageActionUrl"]">
-                                                    @ViewData["PageActionText"]
-                                                </a>
-                                            }
-                                        </div>
+                                        <ejs-breadcrumb id="breadcrumb"
+                                                        separatorTemplate="@Html.Raw("<span class='fa-solid fa-angle-right'></span>")">
+                                        </ejs-breadcrumb>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    }
-                    @RenderBody()
-                </main>
+                        }
+                        @RenderBody()
+                    </main>
+                </div>
             </div>
         </div>
     </div>

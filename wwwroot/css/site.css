@@ -17,6 +17,31 @@ html {
   min-height: 100%;
 }
 
+::-webkit-scrollbar-track
+{
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  background-color: #F5F5F5;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar
+{
+  width: 10px;
+  background-color: #F5F5F5;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb
+{
+  border-radius: 10px;
+  background-image: -webkit-gradient(linear,
+  left bottom,
+  left top,
+  color-stop(0.44, rgb(122,153,217)),
+  color-stop(0.72, rgb(73,125,189)),
+  color-stop(0.86, rgb(28,58,148)));
+}
+
 body {
   margin-bottom: 60px;
   background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
@@ -32,7 +57,6 @@ body {
   margin-left: 300px;
   overflow-y: auto;
   height: 92vh;
-  display: flex;
 }
 
 /*BreadCrumb*/
@@ -200,6 +224,51 @@ body {
   box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
   padding: 15px 25px;
   text-decoration: none;
+}
+
+/*Menu*/
+#menu {
+  width: 100% !important;
+  background-color: inherit;
+  overflow: hidden;
+}
+
+#menu .e-menu-item:not(.e-separator) {
+  height: 50px;
+  border-radius: 4px;
+}
+
+#menu .e-menu-item {
+  box-sizing: border-box;
+}
+
+#menu .e-menu-item a {
+  width: 100%;
+  color: rgb(171, 163, 152);
+  font-weight: 300;
+  padding: 7px 5px;
+  box-sizing: border-box;
+}
+
+#menu .e-anchor-wrap {
+  display: inline-block;
+}
+
+#menu .e-menu-item .e-anchor-wrap span.e-menu-icon {
+  color: rgb(171, 163, 152);
+}
+
+#menu .e-menu-item.e-separator {
+  border: none;
+  margin: 5px 5px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 13px;
+  color: #65da41;
+}
+
+#menu .e-menu-item.e-separator:not(:first-child) {
+  margin-top: 35px;
 }
 
 /*widget*/
