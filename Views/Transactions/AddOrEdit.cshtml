@@ -1,0 +1,50 @@
+﻿@model Finance_Tracking_Web_Application.Models.Transaction
+
+@{
+    ViewData["PageTitle"] = Model.TransactionId == 0 ? "Create a new transaction" : "Edit transaction";
+}
+
+<h1>CREATE OR EDIT TRANSACTION</h1>
+
+<hr/>
+<div class="row">
+    <div class="col-md-8">
+        <form asp-action="AddOrEdit" style="background: linear-gradient(to right, #141e30, #243b55)">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" name="TransactionId" value="@Model.TransactionId"/>
+            <div class="mb-4">
+                <ejs-dropdownlist id="CategoryDropdownList" ejs-for="CategoryId" dataSource="@ViewBag.Categories"
+                                  placeholder="Select Category" floatLabelType="Auto" allowFiltering="true" ignoreAccent="true"
+                                  filterType="Contains" popupHeight="220px">
+                    <e-dropdownlist-fields value="CategoryId" text="TitleWithIcon"></e-dropdownlist-fields>
+                </ejs-dropdownlist>
+                <span asp-validation-for="CategoryId" class="text-danger fs-6"></span>
+            </div>
+            <div class="mb-4">
+                <ejs-numerictextbox id="Amount" ejs-for="Amount" placeholder="Amount" floatLabelType="Auto" min=0 format="c2" currency="GBP"></ejs-numerictextbox>
+                <span asp-validation-for="Amount" class="text-danger fs-6"></span>
+            </div>
+            <div class="mb-4">
+                <ejs-textbox id="Note" placeholder="Note" ejs-for="Note" floatLabelType="Always" multiline="true"></ejs-textbox>
+                <span asp-validation-for="Note" class="text-danger"></span>
+            </div>
+            <div class="mb-4">
+                <ejs-datepicker id="Date" ejs-for="Date" placeholder="Date" floatLabelType="Auto" format="dd-MM-yyyy"></ejs-datepicker>
+                <span asp-validation-for="Date" class="text-danger"></span>
+            </div>
+            <div class="mb-4">
+                <input type="submit" value="Submit" class="bn632-hover bn18"/>
+                <a asp-action="Index" class="bn632-hover bn28">Back</a>
+            </div>
+        </form>
+    </div>
+    <div class="col-md-4">
+        <div class="widget h-100 d-flex justify-content-center align-items-center" style="background: linear-gradient(to right, #141e30, #243b55);">
+            <i class="fa-solid fa-money-bill-transfer fa-5x"></i>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{ await Html.RenderPartialAsync("_ValidationScriptsPartial"); }
+}

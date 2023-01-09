@@ -1,0 +1,88 @@
+/*Side bar*/
+#sidebar {
+    background: linear-gradient(to right, #000000, #434343);
+    border-right: 2px whitesmoke;
+    padding: 20px 30px;
+    overflow: hidden;
+    transition: 500ms ease-out;
+}
+
+#sidebar .e-menu-wrapper {
+    width: 100%;
+    background-color: inherit;
+}
+
+#sidebar-toggler {
+    margin-left: 10px;
+    padding: 5px;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+#sidebar-toggler:hover {
+    cursor: pointer;
+    background-color: #48545f14;
+    transform: scale(1.0) translateZ(0px);
+}
+
+#sidebar.e-close {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#sidebar.e-close .app-logo{
+    min-width: 50px;
+    display: flex;
+}
+
+#sidebar.e-close .font-logo {
+    display: none;
+}
+
+#sidebar.e-open .font-logo {
+    margin-left: 5px;
+    visibility: visible;
+}
+
+#sidebar.e-open .e-menu-item{
+    margin-bottom: 5px;
+}
+
+#sidebar.e-close .e-anchor-wrap, #sidebar.e-close .e-menu-item.e-menu-caret-icon {
+    font-size: 0px;
+}
+#sidebar.e-open .e-anchor-wrap,
+#sidebar.e-close .e-menu-icon, #sidebar.e-open .e-menu-icon {
+    visibility: visible;
+}
+#sidebar.e-open .e-menu-text{
+    font-size: 15px;
+}
+
+#sidebar.e-open .profile-wrapper .titles, #sidebar.e-open .app-logo {
+    display: flex;
+}
+
+#sidebar.e-open .app-logo{
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+#sidebar.e-close .app-logo{
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+#sidebar.e-sidebar.e-right.e-close {
+    visibility: visible;
+    transform: translateX(0);
+}
+
+#sidebar.e-open #sidebar-toggler:before {
+    content: '\f100'
+}
+
+#sidebar.e-close #sidebar-toggler:before {
+    content: '\f101'
+}

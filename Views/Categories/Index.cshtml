@@ -1,0 +1,51 @@
+﻿@model IEnumerable<Finance_Tracking_Web_Application.Models.Category>
+
+@{
+    ViewData["PageTitle"] = "Categories";
+    ViewData["PageActionText"] = "+ New Category";
+    ViewData["PageActionUrl"] = "/Categories/AddOrEdit";
+}
+
+<h1>Money Categories</h1>
+
+<div class="row">
+    <div class="col-md-8">
+        <ejs-grid id="categories" dataSource="@Model" gridLines="None" allowSorting="true" allowPaging="true">
+            <e-grid-pagesettings pageSize="10"></e-grid-pagesettings>
+            <e-grid-columns>
+                <e-grid-column headerText="Category" field="TitleWithIcon"></e-grid-column>
+                <e-grid-column headerText="Type" template="#typeColumnTemplate" textAlign="Center" width="200px"></e-grid-column>
+                <e-grid-column headerText="Action" template="#actionColumnTemplate" textAlign="Center" width="100px"></e-grid-column>
+            </e-grid-columns>
+        </ejs-grid>
+    </div>
+    <div class="col-md-4">
+        <div class="widget h-100 d-flex justify-content-center align-items-center" style="background: linear-gradient(to right, #141e30, #243b55);">
+            <i class="fa-solid fa-money-bills fa-5x"></i>
+        </div>
+    </div>
+</div>
+
+@*For money type display*@
+<script id="typeColumnTemplate" type="text/x-template">
+    ${if(MoneyType=="Income")}
+        <span class="badge bg-success">${MoneyType}</span>
+    ${else}
+        <span class="badge bg-danger">${MoneyType}</span>
+    ${/if}
+</script>
+
+@*For Action display*@
+<script id="actionColumnTemplate" type="text/x-template">
+    <div class="d-flex flex-row justify-content-start">
+        <a class="btn btn-sm no-a-decoration" href="/Categories/AddOrEdit/${CategoryId}">
+            <i class="fa-solid fa-pen fa-lg"></i>
+        </a>
+        <form action="/Categories/Delete/${CategoryId}" method="post">
+            @Html.AntiForgeryToken()
+            <button type="submit" class="btn btn-sm btn-link no-a-decoration" onclick="return confirm(&quot;Are sure to delete this record?&quot;)">
+                <i class="fa-solid fa-trash-can fa-lg text-danger"></i>
+            </button>
+        </form>
+    </div>
+</script>
