@@ -9,6 +9,8 @@
     <link href="https://cdn.syncfusion.com/ej2/20.3.56/bootstrap5-dark.css" rel="stylesheet"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true"/>
+    <link rel="stylesheet" href="css/pageHeader.css"/>
+    <link rel="stylesheet" href="js/pageHeader.js"/>
     <link rel="stylesheet" href="~/finance_tracking_web.styles.css" asp-append-version="true"/>
     <!-- Syncfusion ASP.NET Core controls scripts -->
     <script src="https://cdn.syncfusion.com/ej2/20.3.56/dist/ej2.min.js"></script>
@@ -41,7 +43,7 @@
                                             <div>
                                                 @if (ViewData["PageActionText"] != null)
                                                 {
-                                                    <a class="btn btn-success" href="@ViewData["PageActionUrl"]">
+                                                    <a class="bn632-hover bn18" href="@ViewData["PageActionUrl"]">
                                                         @ViewData["PageActionText"]
                                                     </a>
                                                 }
