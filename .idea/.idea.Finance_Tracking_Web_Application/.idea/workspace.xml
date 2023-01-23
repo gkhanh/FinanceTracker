@@ -10,7 +10,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e9232355-b656-4821-b22e-4cce8019b247" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/FinanceTrackingWebApplication.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Finance_Tracking_Web_Application/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Finance_Tracking_Web_Application/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/Finance_Tracking_Web_Application/DesignTimeBuild/.dtbcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/Finance_Tracking_Web_Application/DesignTimeBuild/.dtbcache.v2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/Finance_Tracking_Web_Application/FileContentIndex/10748dfd-1082-4ec5-a572-5a25f58e5f86.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/Finance_Tracking_Web_Application/FileContentIndex/abb93e9e-3060-4a84-8370-06083c58177d.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/Finance_Tracking_Web_Application/FileContentIndex/e6af9d1c-072f-4bd8-99d9-f6a1498a2d6b.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/Finance_Tracking_Web_Application/FileContentIndex/f4434f9b-92ae-4b65-be04-2401281df524.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/Finance_Tracking_Web_Application/v17/.futdcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/Finance_Tracking_Web_Application/v17/.futdcache.v2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/Finance_Tracking_Web_Application/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/Finance_Tracking_Web_Application/v17/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/ProjectEvaluation/finance_tracking_web_application.metadata.v5.2" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/ProjectEvaluation/finance_tracking_web_application.metadata.v5.2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/ProjectEvaluation/finance_tracking_web_application.projects.v5.2" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/ProjectEvaluation/finance_tracking_web_application.projects.v5.2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Properties/launchSettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web.config" beforeDir="false" afterPath="$PROJECT_DIR$/web.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/netlify.toml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +123,8 @@
       <workItem from="1674031458979" duration="5436000" />
       <workItem from="1674481472040" duration="1764000" />
       <workItem from="1674486773894" duration="1470000" />
-      <workItem from="1674505201868" duration="484000" />
+      <workItem from="1674505201868" duration="2992000" />
+      <workItem from="1674509157443" duration="1423000" />
     </task>
     <task id="LOCAL-00001" summary="Create the project for .NET 6.0 support">
       <created>1673268283451</created>
@@ -147,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674037531580</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="code fixing and clean up">
+      <created>1674505770460</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1674505770460</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,6 +194,7 @@
     <MESSAGE value="update sidebar for index page" />
     <MESSAGE value="update button" />
     <MESSAGE value="Update linechart with code cleanup" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update linechart with code cleanup" />
+    <MESSAGE value="code fixing and clean up" />
+    <option name="LAST_COMMIT_MESSAGE" value="code fixing and clean up" />
   </component>
 </project>
