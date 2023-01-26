@@ -1,68 +1,59 @@
-﻿<!--
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
--->
+﻿<!DOCTYPE html>
+@using Finance_Tracking_Web_Application.Controllers
 @model Finance_Tracking_Web_Application.Models.UserLoginInfo
 @{
     ViewData["Title"] = "Home Page";
-    
 }
 @{
     Layout = null;
 }
-<div class="container">
-    <div class="d-flex justify-content-center h-100">
-        <div class="card">
-            <div class="card-header">
-                <h3>Sign In</h3>
-                <div class="d-flex justify-content-end social_icon">
-                    <span><i class="fab fa-facebook-square"></i></span>
-                    <span><i class="fab fa-google-plus-square"></i></span>
-                    <span><i class="fab fa-twitter-square"></i></span>
-                </div>
-            </div>
-            <div class="card-body">
-                @using (Html.BeginForm("Index", "Home", FormMethod.Post))
-                {
 
-                    if (ViewBag.LoginStatus != null)
-                    {
-                        if (ViewBag.LoginStatus == 0)
-                        {
-                            <div class="alert alert-danger">Invalid login detail</div>
-                        }
-                    }
-                    <div class="input-group form-group">
-                        <div class="input-group-prepend">
-                            <span class="input-group-text"><i class="fas fa-user"></i></span>
-                        </div>
-                        @Html.TextBoxFor(m => m.LoginId, new { @class = "form-control", @placeholder = "username" })
-
-                    </div>
-                    <div class="input-group form-group">
-                        <div class="input-group-prepend">
-                            <span class="input-group-text"><i class="fas fa-key"></i></span>
-                        </div>
-                        @Html.PasswordFor(m => m.Password, new { @class = "form-control", @placeholder = "password" })
-                    </div>
-                    <div class="row align-items-center remember">
-                        <input type="checkbox">Remember Me
-                    </div>
-                    <div class="form-group">
-                        <input type="submit" value="Login" class="btn float-right login_btn">
-                    </div>
-                }
-            </div>
-            <div class="card-footer">
-                <div class="d-flex justify-content-center links">
-                    Don't have an account?<a href="#">Sign Up</a>
-                </div>
-                <div class="d-flex justify-content-center">
-                    <a href="#">Forgot your password?</a>
-                </div>
-            </div>
-        </div>
-    </div>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Log In</title>
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Design by foolishdeveloper.com -->
+    <title>Finance Tracking Web</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
+    <!--Stylesheet-->
+    <link rel="stylesheet" href="css/loginPage.css"/>
+</head>
+<body>
+<div class="background">
+    <div class="shape"></div>
+    <div class="shape"></div>
 </div>
+<form>
+    <h3>Login Here</h3>
+    <!--<label for="username">Email Username</label>
+    <input type="text" placeholder="Email or Phone" id="Email">
+    <label for="password">Password</label>
+    <input type="password" placeholder="Password" id="Password">
+    <input type="button" class="bn632-hover bn18" value="Log in" onclick="@("window.location.href = '" + @Url.Action("Index", "Dashboard") + "'");"/>-->
+    <div class="form-group">
+            @Html.LabelFor(m => m.Email)
+            @Html.TextBoxFor(m => m.Email, new { @class = "form-control" })
+            @Html.ValidationMessageFor(m => m.Email)
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(m => m.Password)
+            @Html.PasswordFor(m => m.Password, new { @class = "form-control" })
+            @Html.ValidationMessageFor(m => m.Password)
+        </div>
+        <div class="form-group">
+            <input type="submit" value="Log In" class="bn632-hover bn18" onclick="@("window.location.href = '" + @Url.Action("Index", "Dashboard") + "'");"/>
+        </div>
+</form>
+</body>
+</html>
+<!-- partial -->
+</body>
+</html>

@@ -1,4 +1,5 @@
 using System.Security.Cryptography.X509Certificates;
+using Finance_Tracking_Web_Application.Controllers;
 using Finance_Tracking_Web_Application.Models;
 using Microsoft.EntityFrameworkCore;
 
@@ -14,4 +15,6 @@ public class ApplicationDbContext:DbContext
     
     public DbSet<Transaction> Transactions { get; set; } //Get transaction class property into this class
     public DbSet<Category> Categories { get; set; } //Get category class property into this class
+    public DbSet<UserLoginInfo> Email { get; set; }
+    public DbSet<UserLoginInfo> Password { get; set; }
 }

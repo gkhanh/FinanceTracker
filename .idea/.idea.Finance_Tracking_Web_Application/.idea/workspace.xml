@@ -10,17 +10,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e9232355-b656-4821-b22e-4cce8019b247" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/wwwroot/css/loginPage.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Finance_Tracking_Web_Application/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Finance_Tracking_Web_Application/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.vs/Finance_Tracking_Web_Application/DesignTimeBuild/.dtbcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/Finance_Tracking_Web_Application/DesignTimeBuild/.dtbcache.v2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/Finance_Tracking_Web_Application/FileContentIndex/7758bfd8-6153-42d4-8d0b-028ccf075700.vsidx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/Finance_Tracking_Web_Application/FileContentIndex/b3f52cec-edbd-4195-904e-e1fa1dbc5bf9.vsidx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/Finance_Tracking_Web_Application/FileContentIndex/f9dd7059-7c84-4db6-897c-95a7678db7cb.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/Finance_Tracking_Web_Application/FileContentIndex/31320ee8-065b-4416-8ede-a68e916fe1b3.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/Finance_Tracking_Web_Application/FileContentIndex/57a7dee6-97a6-4c7c-9922-daafcd1d0b51.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/Finance_Tracking_Web_Application/FileContentIndex/9d1f01fe-89d6-41dd-93a4-2f858a093411.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/Finance_Tracking_Web_Application/FileContentIndex/aedecf43-8906-4b97-92c3-da08dfb10302.vsidx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.vs/Finance_Tracking_Web_Application/v17/.futdcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/Finance_Tracking_Web_Application/v17/.futdcache.v2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.vs/Finance_Tracking_Web_Application/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/Finance_Tracking_Web_Application/v17/.suo" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.vs/ProjectEvaluation/finance_tracking_web_application.metadata.v5.2" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/ProjectEvaluation/finance_tracking_web_application.metadata.v5.2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.vs/ProjectEvaluation/finance_tracking_web_application.projects.v5.2" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/ProjectEvaluation/finance_tracking_web_application.projects.v5.2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Properties/PublishProfiles/FinanceTrackingWebApplication - Web Deploy.pubxml.user" beforeDir="false" afterPath="$PROJECT_DIR$/Properties/PublishProfiles/FinanceTrackingWebApplication - Web Deploy.pubxml.user" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web.config" beforeDir="false" afterPath="$PROJECT_DIR$/web.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/HomeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/HomeController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Finance_Tracking_Web_Application.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Finance_Tracking_Web_Application.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/ApplicationDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/ApplicationDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/UserLoginInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/UserLoginInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Home/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Home/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Home/Privacy.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Shared/_Sidebar.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Shared/_Sidebar.cshtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +44,9 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/20b34b9a328994f3f3e215764dac6af1b2a66fdca278f58f1b4f3addcb29f4f/ViewDataDictionary.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Controllers/CategoriesController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Controllers/HomeController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Models/ApplicationDbContext.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -122,6 +132,9 @@
       <workItem from="1674486773894" duration="1470000" />
       <workItem from="1674505201868" duration="2992000" />
       <workItem from="1674509157443" duration="2113000" />
+      <workItem from="1674570788076" duration="2137000" />
+      <workItem from="1674590631074" duration="2095000" />
+      <workItem from="1674733730760" duration="5756000" />
     </task>
     <task id="LOCAL-00001" summary="Create the project for .NET 6.0 support">
       <created>1673268283451</created>
