@@ -1,6 +1,6 @@
 ﻿<!DOCTYPE html>
 @using Finance_Tracking_Web_Application.Controllers
-@model Finance_Tracking_Web_Application.Models.UserLoginInfo
+
 @{
     ViewData["Title"] = "Home Page";
 }
@@ -37,20 +37,8 @@
     <input type="text" placeholder="Email or Phone" id="Email">
     <label for="password">Password</label>
     <input type="password" placeholder="Password" id="Password">
-    @*<input type="button" class="bn632-hover bn18" value="Log in" onclick="@("window.location.href = '" + @Url.Action("Index", "Dashboard") + "'");"/>*@
-    <!--<div class="form-group">
-        @Html.LabelFor(m => m.Email)
-        @Html.TextBoxFor(m => m.Email, new { @class = "form-control" })
-        @Html.ValidationMessageFor(m => m.Email)
-    </div>
-    <div class="form-group">
-        @Html.LabelFor(m => m.Password)
-        @Html.PasswordFor(m => m.Password, new { @class = "form-control" })
-        @Html.ValidationMessageFor(m => m.Password)
-    </div>-->
-    <div class="form-group">
-        <input type="submit" value="Log In" class="bn632-hover bn18" onclick="@("window.location.href = '" + @Url.Action("Index", "Dashboard") + "'");"/>
-    </div>
+    <input type="button" class="bn632-hover bn18" value="Log in" onclick="@("window.location.href = '" + @Url.Action("Index", "Dashboard") + "'");"/>
+    
 </form>
 </body>
 </html>

@@ -15,6 +15,5 @@ public class ApplicationDbContext:DbContext
     
     public DbSet<Transaction> Transactions { get; set; } //Get transaction class property into this class
     public DbSet<Category> Categories { get; set; } //Get category class property into this class
-    public DbSet<UserLoginInfo> Email { get; set; }
-    public DbSet<UserLoginInfo> Password { get; set; }
+    
 }
