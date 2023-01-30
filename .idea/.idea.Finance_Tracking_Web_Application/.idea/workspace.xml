@@ -9,9 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9232355-b656-4821-b22e-4cce8019b247" name="Changes" comment="Fix login page">
-      <change beforePath="$PROJECT_DIR$/Views/Home/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Home/Index.cshtml" afterDir="false" />
-    </list>
+    <list default="true" id="e9232355-b656-4821-b22e-4cce8019b247" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,6 +28,7 @@
     <setting file="file://$PROJECT_DIR$/Controllers/CategoriesController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Controllers/HomeController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Models/ApplicationDbContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://D:/3rd year/Minor Creative Design &amp; Technology/Showcase/Backup/Finance Tracking Web 6.0/Finance_Tracking_Web_Application/Models/ApplicationDbContext.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -116,7 +115,7 @@
       <workItem from="1674509157443" duration="2113000" />
       <workItem from="1674570788076" duration="2137000" />
       <workItem from="1674590631074" duration="2095000" />
-      <workItem from="1674733730760" duration="6090000" />
+      <workItem from="1674733730760" duration="6239000" />
     </task>
     <task id="LOCAL-00001" summary="Create the project for .NET 6.0 support">
       <created>1673268283451</created>
@@ -174,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674739765082</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Fix login page">
+      <created>1674740039122</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1674740039122</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
