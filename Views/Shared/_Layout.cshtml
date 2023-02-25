@@ -36,14 +36,14 @@
                             <div class="row">
                                 <div class="col-md-7">
                                     <div class="d-flex flex-column mb-5">
-                                        <div class="d-flex mb-1">
+                                        <div class="d-flex align-items-center mb-1 header_page">
                                             <div class="flex-grow-1">
                                                 <h3 class="fw-bold">@ViewData["PageTitle"]</h3>
                                             </div>
                                             <div>
                                                 @if (ViewData["PageActionText"] != null)
                                                 {
-                                                    <a class="bn632-hover bn18" href="@ViewData["PageActionUrl"]">
+                                                    <a class="bn632-hover bn18 btn_new" href="@ViewData["PageActionUrl"]">
                                                         @ViewData["PageActionText"]
                                                     </a>
                                                 }

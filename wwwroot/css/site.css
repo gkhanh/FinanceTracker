@@ -306,3 +306,68 @@ body {
 .widget.chart {
   padding: 5px;
 }
+
+@media screen and (max-width: 450px) {
+    #sidebar {
+        
+        
+    }
+    .dock-target .mainContent {
+        margin-left: 110px !important;
+    }
+    .dock-target .mainContent .ss_total {
+        gap: 10px;
+    }
+    #doughnutchart_svg {
+        width: 100% !important;
+    }
+    .header_page .btn_new {
+        padding: 10px !important;
+        font-size: 16px !important;
+        margin: 0 !important;
+    }
+    .e-table {
+        width: unset !important;
+        padding: 0px !important;
+    }
+    .e-rowcell {
+        font-size:14px !important;
+    }
+    .control_btn {
+        display: flex;
+        flex-direction: column;
+        max-width: 100% ;
+        align-items: center;
+    }
+    .control_btn .bn632-hover {
+       font-size: 16px;
+       height: 40px;
+       padding: 0;
+    }
+    .control_btn .btn_back {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .e-open {
+        padding-left: 10px !important;
+        padding-right: 20px !important;
+        width: 110px !important;
+        z-index: 1000 !important;
+        
+    }
+    .e-menu-text .e-anchor-wrap {
+        white-space: nowrap !important;
+        width: 30px !important;
+        overflow: hidden !important;
+        text-overflow: clip !important;
+    }
+    
+    .e-close {
+        display: block !important;
+    }
+    
+    #sidebar-toggler {
+        display: none !important;
+    }
+}
