@@ -7,11 +7,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd8ade36-8448-48a1-8151-3a88311cabb7" name="Changes" comment="Update code for Portfolio">
-      <change afterPath="$PROJECT_DIR$/wwwroot/css/portfolioPage.css" afterDir="false" />
+    <list default="true" id="bd8ade36-8448-48a1-8151-3a88311cabb7" name="Changes" comment="Update code for Portfolio and make this page for mobile">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Finance_Tracking_Web_Application/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Finance_Tracking_Web_Application/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Finance_Tracking_Web_Application.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Finance_Tracking_Web_Application.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/Portfolio/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Portfolio/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/Finance_Tracking_Web_Application/DesignTimeBuild/.dtbcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/Finance_Tracking_Web_Application/DesignTimeBuild/.dtbcache.v2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/Finance_Tracking_Web_Application/FileContentIndex/0ac26eda-166a-458d-a21f-45756a0cc773.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/Finance_Tracking_Web_Application/FileContentIndex/0ca6c2be-cb60-408c-b5e4-1fa669d8394b.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/Finance_Tracking_Web_Application/FileContentIndex/d91ec3b3-d8b1-429a-9048-dd51892e2823.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/Finance_Tracking_Web_Application/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/Finance_Tracking_Web_Application/v17/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Properties/PublishProfiles/FinanceTrackingWebApplication - Web Deploy1.pubxml.user" beforeDir="false" afterPath="$PROJECT_DIR$/Properties/PublishProfiles/FinanceTrackingWebApplication - Web Deploy1.pubxml.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/css/portfolioPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/css/portfolioPage.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +30,7 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock://D:/Study/Minor Creative Technology &amp; Design/Showcase/Project Finance Tracking Web in C#/FinanceTracker/Views/Portfolio/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
     <setting file="mock://D:/Study/Minor Creative Technology &amp; Design/Showcase/Project Finance Tracking Web in C#/FinanceTracker/Views/Shared/_Sidebar.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -99,7 +104,7 @@
       <option name="presentableId" value="Default" />
       <updated>1677318332879</updated>
       <workItem from="1677318338900" duration="1107000" />
-      <workItem from="1677749572552" duration="12133000" />
+      <workItem from="1677749572552" duration="12883000" />
     </task>
     <task id="LOCAL-00001" summary="Update layout for mobile version">
       <created>1677318360788</created>
@@ -122,7 +127,28 @@
       <option name="project" value="LOCAL" />
       <updated>1677752202201</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Update code for Portfolio and make this page for mobile">
+      <created>1677763587888</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1677763587888</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Update code for Portfolio and make this page for mobile">
+      <created>1677763611635</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1677763611635</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Update code for Portfolio and make this page for mobile">
+      <created>1677763663592</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1677763663592</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,6 +170,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Update layout for mobile version" />
     <MESSAGE value="Update code for Portfolio" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update code for Portfolio" />
+    <MESSAGE value="Update code for Portfolio and make this page for mobile" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update code for Portfolio and make this page for mobile" />
   </component>
 </project>
