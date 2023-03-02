@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAVHddzwaBHUernEmGJfcPpAAAAAACAAAAAAAQZgAAAAEAACAAAADaM5VmspzntzzKoHr9uGrH4DJf+BBEuAUIZUTBy9UKWAAAAAAOgAAAAAIAACAAAACBYwDuHszQMzi7PtNxMiwPQ0U3fCSPxBoE2iT67xwPmIAAAABmIccly9OTyxbAX29GYRuPW0ppYsh4PHPVm1et21deZcUdU2ALe8kiIIFTVqo49qUPun8sdUo6BF4zZnIoxOs44EaXqE+Ujo9d8gAluKHwHBlDTdNHCkUuzq+mWNE+9lVitJAaTpWCJSzYeiCRO/EMafzojkPf+xEGG6DNOfwlpUAAAACVU+PghnAvQIPmW8DqJRm3cppxSzhdupgvf4WxxFcuZ0DD108tfNyhILcsN3Fu7z+19LJTvhIrnfPsmpnvjY//</EncryptedPassword>
+    <History>True|2023-02-25T09:50:19.2732317Z;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <AzureDBConnectionStrings Include="&quot;DevConnection&quot;: &quot;Server=databasetestazure.database.windows.net;Database=TransactionDB;User Id=khanhadmin;password=Gkhanh2002;Trusted_Connection=False;Encrypt=True;Integrated Security=False;MultipleActiveResultSets=True;&quot;" />
+    <AzureDBConnectionStrings Include="Server=databasetestazure.database.windows.net;Database=TransactionDB;User Id=khanhadmin;password=Gkhanh2002;Trusted_Connection=False;Encrypt=True;Integrated Security=False;MultipleActiveResultSets=True" />
+  </ItemGroup>
+</Project>
