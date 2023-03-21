@@ -10,12 +10,11 @@
     <list default="true" id="bd8ade36-8448-48a1-8151-3a88311cabb7" name="Changes" comment="Update code for Portfolio and make this page for mobile">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Finance_Tracking_Web_Application/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Finance_Tracking_Web_Application/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.vs/Finance_Tracking_Web_Application/DesignTimeBuild/.dtbcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/Finance_Tracking_Web_Application/DesignTimeBuild/.dtbcache.v2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/Finance_Tracking_Web_Application/FileContentIndex/0ac26eda-166a-458d-a21f-45756a0cc773.vsidx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/Finance_Tracking_Web_Application/FileContentIndex/0ca6c2be-cb60-408c-b5e4-1fa669d8394b.vsidx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/Finance_Tracking_Web_Application/FileContentIndex/d91ec3b3-d8b1-429a-9048-dd51892e2823.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/Finance_Tracking_Web_Application/FileContentIndex/683b70e8-5987-489a-9a51-0862ea423284.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/Finance_Tracking_Web_Application/FileContentIndex/926a78ff-7fe9-4520-8273-f2b6e478b641.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/Finance_Tracking_Web_Application/FileContentIndex/c4a6e768-b893-4c4f-b35c-9c6a9fe05a5a.vsidx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.vs/Finance_Tracking_Web_Application/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/Finance_Tracking_Web_Application/v17/.suo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Properties/PublishProfiles/FinanceTrackingWebApplication - Web Deploy1.pubxml.user" beforeDir="false" afterPath="$PROJECT_DIR$/Properties/PublishProfiles/FinanceTrackingWebApplication - Web Deploy1.pubxml.user" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/css/portfolioPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/css/portfolioPage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Portfolio/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Portfolio/Index.cshtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,10 +28,6 @@
       </list>
     </option>
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="mock://D:/Study/Minor Creative Technology &amp; Design/Showcase/Project Finance Tracking Web in C#/FinanceTracker/Views/Portfolio/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/Study/Minor Creative Technology &amp; Design/Showcase/Project Finance Tracking Web in C#/FinanceTracker/Views/Shared/_Sidebar.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
-  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -41,20 +36,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "project.propVCSSupport.Mappings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.Mappings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Launch Settings Profile.Finance_Tracking_Web_Application">
     <configuration name="Finance_Tracking_Web_Application: FinanceTrackingWebApplication - Web Deploy" type="DotNetMsBuildPublish" factoryName="Publish to IIS">
       <riderPublish publish_profile="FinanceTrackingWebApplication - Web Deploy.pubxml" pubxml_path="$PROJECT_DIR$/Properties/PublishProfiles/FinanceTrackingWebApplication - Web Deploy.pubxml" uuid_high="-3901787045315067228" uuid_low="-9126135801117254719" />
@@ -104,7 +99,10 @@
       <option name="presentableId" value="Default" />
       <updated>1677318332879</updated>
       <workItem from="1677318338900" duration="1107000" />
-      <workItem from="1677749572552" duration="12883000" />
+      <workItem from="1677749572552" duration="12988000" />
+      <workItem from="1678274383063" duration="792000" />
+      <workItem from="1679322674602" duration="488000" />
+      <workItem from="1679403779091" duration="1216000" />
     </task>
     <task id="LOCAL-00001" summary="Update layout for mobile version">
       <created>1677318360788</created>
@@ -148,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677763663592</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Update code for Portfolio and make this page for mobile">
+      <created>1677764426880</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1677764426880</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
