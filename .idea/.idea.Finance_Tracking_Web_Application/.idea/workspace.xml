@@ -7,13 +7,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd8ade36-8448-48a1-8151-3a88311cabb7" name="Changes" comment="Update code for Portfolio and make this page for mobile">
+    <list default="true" id="bd8ade36-8448-48a1-8151-3a88311cabb7" name="Changes" comment="Update code for Portfolio page">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Finance_Tracking_Web_Application/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Finance_Tracking_Web_Application/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/Finance_Tracking_Web_Application/DesignTimeBuild/.dtbcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/Finance_Tracking_Web_Application/DesignTimeBuild/.dtbcache.v2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/Finance_Tracking_Web_Application/FileContentIndex/683b70e8-5987-489a-9a51-0862ea423284.vsidx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/Finance_Tracking_Web_Application/FileContentIndex/926a78ff-7fe9-4520-8273-f2b6e478b641.vsidx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/Finance_Tracking_Web_Application/FileContentIndex/c4a6e768-b893-4c4f-b35c-9c6a9fe05a5a.vsidx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/Finance_Tracking_Web_Application/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/Finance_Tracking_Web_Application/v17/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Home/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Home/Index.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Views/Portfolio/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Portfolio/Index.cshtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -103,6 +99,8 @@
       <workItem from="1678274383063" duration="792000" />
       <workItem from="1679322674602" duration="488000" />
       <workItem from="1679403779091" duration="1216000" />
+      <workItem from="1679405483431" duration="39000" />
+      <workItem from="1680101547565" duration="342000" />
     </task>
     <task id="LOCAL-00001" summary="Update layout for mobile version">
       <created>1677318360788</created>
@@ -153,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677764426880</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Update code for Portfolio page">
+      <created>1679405510867</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1679405510867</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,6 +181,7 @@
     <MESSAGE value="Update layout for mobile version" />
     <MESSAGE value="Update code for Portfolio" />
     <MESSAGE value="Update code for Portfolio and make this page for mobile" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update code for Portfolio and make this page for mobile" />
+    <MESSAGE value="Update code for Portfolio page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update code for Portfolio page" />
   </component>
 </project>
