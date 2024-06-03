@@ -35,7 +35,8 @@ namespace Finance_Tracking_Web_Application.Controllers
             int Balance = TotalIncome - TotalExpense;
             CultureInfo culture = CultureInfo.CreateSpecificCulture("en-US");
             culture.NumberFormat.CurrencyNegativePattern = 1;
-            ViewBag.Balance = Balance.ToString("C0");
+            //ViewBag.Balance = Balance.ToString("C0");
+            ViewBag.Balance = String.Format(culture, "{0:C0}", Balance);
 
             ViewBag.DoughnutChartData = SelectedTransactions.Where(i => i.Category.MoneyType == "Expense")
                 .GroupBy(j => j.Category.CategoryId).Select(k => new

@@ -10,6 +10,7 @@ public class Category
     public int CategoryId { get; set; } // category ID 
 
     [Column(TypeName = "nvarchar(100)")] // column with 100 character max for the length of title
+    [Required(ErrorMessage = "Title is required")]
     public string Title { get; set; } = "";// category name
 
     [Column(TypeName = "nvarchar(100)")] // column with 100 character max for the length of Icon name

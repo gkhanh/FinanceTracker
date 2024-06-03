@@ -48,7 +48,8 @@ namespace Finance_Tracking_Web_Application.Controllers
         {
             if (ModelState.IsValid)
             {
-                if (transaction.TransactionId == null)
+                // if (transaction.TransactionId == null)
+                if (transaction.TransactionId == 0)
                 {
                     _context.Add(transaction);
                 }
@@ -86,9 +87,10 @@ namespace Finance_Tracking_Web_Application.Controllers
         [NonAction]
         public void PopulateCategory()
         {
-            var CategoryCollection = _context.Categories.ToList();//get Categories from db context and put them to list
-            //Category Default = new Category() { CategoryId = 0, Title = "Select Category" };
-            //CategoryCollection.Insert(0, Default);
+            // get Categories from db context and put them to list
+            var CategoryCollection = _context.Categories.ToList();
+            Category Default = new Category() { CategoryId = 0, Title = "Select Category" };
+            CategoryCollection.Insert(0, Default);
             ViewBag.Categories = CategoryCollection;
         } 
     }
