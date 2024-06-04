@@ -25,18 +25,21 @@ namespace Finance_Tracking_Web_Application.Controllers
 
             //Total income calculation
             int TotalIncome = SelectedTransactions.Where(i => i.Category.MoneyType == "Income").Sum(j => j.Amount);
-            ViewBag.TotalIncome = TotalIncome.ToString("C0");
+            CultureInfo culture = CultureInfo.CreateSpecificCulture("en-US");
+            // ViewBag.TotalIncome = TotalIncome.ToString("C0");
+            ViewBag.TotalExpense = String.Format(culture, "{0:C2}", TotalIncome);
 
             //Total expense calculation
             int TotalExpense = SelectedTransactions.Where(i => i.Category.MoneyType == "Expense").Sum(j => j.Amount);
-            ViewBag.TotalExpense = TotalExpense.ToString("C0");
+            // ViewBag.TotalExpense = TotalExpense.ToString("C0");
+            ViewBag.TotalExpense = String.Format(culture, "{0:C2}", TotalExpense);
 
             //Balance calculation
             int Balance = TotalIncome - TotalExpense;
-            CultureInfo culture = CultureInfo.CreateSpecificCulture("en-US");
+            
             culture.NumberFormat.CurrencyNegativePattern = 1;
             //ViewBag.Balance = Balance.ToString("C0");
-            ViewBag.Balance = String.Format(culture, "{0:C0}", Balance);
+            ViewBag.Balance = String.Format(culture, "{0:C2}", Balance);
 
             ViewBag.DoughnutChartData = SelectedTransactions.Where(i => i.Category.MoneyType == "Expense")
                 .GroupBy(j => j.Category.CategoryId).Select(k => new

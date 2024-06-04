@@ -17,10 +17,10 @@ namespace Finance_Tracking_Web_Application.Controllers
         {
             return View();
         }
-
+        /*
         public IActionResult Privacy()
         {
             return View();
-        }
+        }*/
     }
 }
